@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Charlie's Lemonade</title>
+</head>
+
+<body id="home" data-bs-spy="scroll" data-target="#main-nav">
+  <!-- START HERE -->
+<nav class="navbar navbar-expand-md navbar-light fixed-top py-4" id="main-nav">
+  <div class="container">
+    <a href="index.html" class="navbar-brand">
+      <img src="img/Cg-logo.png" width="50" height="50" alt="">
+      <h3 class="d-inline align-middle">Charlie's Lemonade</h3>
+    </a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto" role="tablist">
+        <li class="nav-item">
+          <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#author" class="nav-link">Meet the Author</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Showcase -->
+<section id="showcase" class="py-5">
+  <div class="primary-overlay text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-center">
+<h1 class="display-2 mt-5 pt 5">
+  What are Monsters?
+</h1>
+        <p class="lead">A story of a boy who went on a journey to find the answer.</p>
+        <a href="doc/Charlie's Lemonade.pdf" class="btn btn-outline-secondary btn-lg text-white">
+          <i class="fas fa-arrow-right"></i>Sample Book
+        </a>
+        </div>
+        <div class="col-lg-6 poster">
+          <img src="img/Charlie's-Lemonade-book-cover.gif" alt="" class="img-fluid d-none d-lg-block">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter -->
+<section id="newsletter" class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <input type="text" class="form-control form-control-lg mb-resp" placeholder="Enter Name">
+        </div>
+      <div class="col-md-4">
+        <input type="text" class="form-control form-control-lg mb-resp" placeholder="Enter Email">
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-primary btn-lg btn-block">
+          <i class="fas fa-envelope-open-o"></i>Subscribe
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Boxes -->
+<section id="boxes" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card text-center border-primary mb-resp">
+          <div class="card-body">
+            <h3 class="text-primary-subtle">Charlie</h3>
+            <p class="texted-muted">Charlie is a curious, young boy who has fears but is not afraid of facing them.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center bg-primary text-white mb-resp">
+          <div class="card-body">
+            <h3 class="text-white">The Girl</h3>
+            <p class="texted-muted">This character serves as a companion and teacher along Charlie's journey.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center border-primary mb-resp">
+          <div class="card-body">
+            <h3 class="text-primary">The Captain</h3>
+            <p class="texted-muted">The Captain facilitates Charlie's escapades in a calm and stoic manner.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center bg-primary text-white mb-resp">
+          <div class="card-body">
+            <h3 class="text-white">The Lady</h3>
+            <p class="texted-muted">The crew finds the lady behaving badly prompting them to find out why.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="py-5 text-center bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="info-header mb-5">
+          <h1 class=" pb-3">
+            Why This Book?
+          </h1>
+          <p class="lead pb-3">
+            Family dynamics can be confusing for children. A child is learning what is considered "good" behavior and what is not. They are taught that evil exists but don't quite know what it looks like. Sometimes children assume that something unfamiliar must be bad. This story explores the idea that people are not monsters, but they may have monsters that need to be conquered. 
+          </p>
+        </div>
+
+        <!-- Acordion -->
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header">
+              <h5 class="mb-0">
+                <div href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+                  <i class="fas fa-arrow-circle-down"></i>Message 1
+                </div>
+              </h5>
+              </div>
+              <div id="collapse1" class="collapse show">
+                <div class="card-body">
+                  Making the most of a bad situation has been a problem solver for many years. Many of us have heard the phrase, "When life hands you lemons, make lemonade." A positive attitude often yeilds the best results. 
+                </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h5 class="mb-0">
+                <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                  <i class="fas fa-arrow-circle-down"></i>Message 2
+                </div>
+              </h5>
+              </div>
+              <div id="collapse2" class="collapse ">
+                <div class="card-body">
+                  People and amimals are not evil. The acts they perform can be evil, but that does not remove the dignity of the individual.
+                </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h5 class="mb-0">
+                <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+                  <i class="fas fa-arrow-circle-down"></i>Message 3
+                </div>
+              </h5>
+              </div>
+              <div id="collapse3" class="collapse ">
+                <div class="card-body">
+                  We are often afraid of the unfamiliar. Someone from a small town dreads going into a big city. The more education and life experiences we have, the more we come to understand and accept one another.
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</section>
+
+<!-- Author/ Illustrator-->
+<section id="author" class="my-5 text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="info-header mb-5">
+          <h1 class=" pb-3">
+            Meet The Author and Illustrator.
+          </h1>
+          <p class="lead">
+            Raised in a very large family, Catherine grew up in northern Minnesota. She received a BFA in Graphic and Web Design from the University of MN, Duluth. Her favorite medium for art is painting with oil, but watercolor is a close second.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-md-center">
+      <div class="col-lg-5 col-lg-3 c-md-auto ">
+        <div class="card ">
+          
+          <div class="card-body">
+            <img src="img/Catherin-pic.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+            <h3>Catherine Glancy</h3>
+            <h5 class="text-muted">Author and Illustrator</h5>
+            <p>As a mother of seven children, I often draw inspiration from my children. Charlie's lemonade was inspired by my sons, Isaac and Charlie.</p>
+            <div class="d-flex justify-content-center">
+              <div class="p-4">
+                <a href="http://facebook.com">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </div>
+              <div class="p-4">
+                <a href="http://twitter.com">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+              <div class="p-4">
+                <a href="http://intagram.com">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact/Footer -->
+<section id="contact" class="bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <h3>Get in Touch</h3>
+        <p>I would love to answer any of your questions or hear your thoughts about this book. Please provide answers to the questions below.</p>
+        <form>
+          <div class="input-group input-group-lg mb-3">
+           <div class="input-group-prepend">
+           <span class="input-group-text">
+            <i class="fas fa-user"></i>
+           </span>
+           </div> 
+           <input type="text" class="form-control" placeholder="Name">
+          </div>
+
+          <div class="input-group input-group-lg mb-3">
+            <div class="input-group-prepend">
+            <span class="input-group-text">
+             <i class="fas fa-envelope"></i>
+            </span>
+            </div> 
+            <input type="email" class="form-control" placeholder="email">
+           </div>
+
+           <div class="input-group input-group-lg mb-3">
+            <div class="input-group-prepend">
+            <span class="input-group-text">
+             <i class="fas fa-pencil-alt"></i>
+            </span>
+            </div> 
+            <textarea  class="form-control" placeholder="Message" rows="5"></textarea>
+           </div>
+           <input type="submit" value="Submit" class="btn btn-primary btn-block btn-lg">
+        </form>
+      </div>
+
+      <div class="col-lg-3 align-self-center">
+        <img src="img/Cg-logo.png" alt="" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<footer id="main-footer" class="py-5 bg-dark text-white">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-6 ml-auto">
+        <p class="lead">
+          Copyright &copy; <span id="year"> 
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+      // Init Scrollspy
+      var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#main-nav'
+})
+
+var dataSpyList = [].slice.call(document.querySelectorAll('[data-bs-spy="scroll"]'))
+dataSpyList.forEach(function (dataSpyEl) {
+  bootstrap.ScrollSpy.getInstance(dataSpyEl)
+    .refresh()
+})
+
+      $('body').scrollspy({ target: '#main-nav' });
+
+// Smooth Scrolling
+$("#main-nav a").on('click', function (event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+
+    const hash = this.hash;
+
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function () {
+
+      window.location.hash = hash;
+    });
+  }
+});
+  </script>
+</body>
+
+</html>
